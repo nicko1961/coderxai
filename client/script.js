@@ -86,7 +86,7 @@ const messageDiv = document.getElementById(uniqueId);
 loader(messageDiv);
 
 //fetch data from server to bots response
-const response = await fetch('http://localhost:5000', {
+const response = await fetch('https://coderx-ur4d.onrender.com', {
   method: 'POST',
   headers: {
     'content-type': 'application/json'
